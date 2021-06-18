@@ -1,0 +1,202 @@
+body{
+    background-color:rgba(236, 233, 233, 0.849);
+}
+
+body.light{
+    background-color: rgba(236, 233, 233, 0.849);
+    color:black;
+}
+
+body.dark{
+    background-color: black;
+    color:white;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu>li{
+    display: inline;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+#about{
+    margin-left: 35px;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.main-name{
+    font-size: 50px;
+}
+
+.menu-a{
+    color:gray;
+    text-decoration: none;
+}
+
+.menu-a:hover{
+    color: black;
+}
+
+.menu{
+    font-size: 20px;
+    position: fixed;
+    right: 50px;
+}
+
+#skills{
+    margin-left: 35px;
+    margin-top: 300px;
+}
+
+#portfolio{
+    margin-left: 35px;
+    margin-top: 400px;
+}
+
+#contact{
+    margin-left: 35px;
+    margin-top: 500px;
+}
+
+#contact>h1{
+    font-size: 50px;
+    color: rgb(100, 99, 99);
+}
+
+.contact-comment{
+    font-size: 20px;
+    font-family: 'Yeon Sung', cursive;
+}
+
+.about-name{
+    font-size: 50px;
+    color: rgb(100, 99, 99)
+}
+
+.about-comment{
+    font-size: 25px;
+    font-family: 'Yeon Sung', cursive;
+}
+
+.about-serve{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.my-photo{
+    width: 500px;
+    margin-right: 60px;
+}
+
+#skills>h1{
+    font-size: 50px;
+    color: rgb(100, 99, 99)
+}
+
+#portfolio>h1{
+    font-size: 50px;
+    color: rgb(100, 99, 99)
+}
+
+.skills-tool{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+}
+
+.skills-tool>img{
+    width: 100px;
+    margin-right: 30px;
+}
+
+.portfolio-photo{
+    width:180px;
+    height:150px;
+}
+
+.portfolio-click{
+    margin-top:0;
+    font-size:30px;
+}
+
+.point1{
+    -webkit-text-stroke:1px rgb(224, 156, 219);
+}
+
+.point1:hover{
+    background-color: rgb(170, 241, 170);
+    color:black;
+}
+
+.point2:hover{
+    background-color: pink;
+    color:white;
+    -webkit-text-stroke:1px white;
+}
+
+.point2{
+    background-color: rgb(221, 184, 221);
+}
+
+.introduce{
+    font-size:60px;
+    font-family: 'Do Hyeon', cursive;
+    margin-bottom: 0%;
+}
+
+.point3{
+    -webkit-text-stroke:1px rgb(224, 156, 219);
+}
+
+.point3:hover{
+    background-color: rgb(170, 170, 240);
+}
+
+.point{
+    -webkit-text-stroke:1px black;
+}
+
+.point4:hover{
+    background-color: rgb(228, 171, 161);
+}
+
+.point5{
+    -webkit-text-stroke:1px rgb(224, 156, 219);
+}
+
+.point5:hover{
+    background-color: rgb(199, 228, 161);
+}
+
+.eng{
+    font-size: 20px;
+    font-family: 'Yeon Sung', cursive;
+}
+
+.li{
+    display: list-item;
+    background: #ccc;
+    height: 42px;
+    border-radius: 3px;
+}
+
+.skill-photo{
+    align-content: center;
+    width: 100px;
+    margin-right: 30px;
+}
+
