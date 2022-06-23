@@ -66,6 +66,16 @@ body.dark{
     margin-top: 400px;
 }
 
+#bigdata{
+    margin-left: 35px;
+    margin-top: 300px;
+}
+
+#bigdata>h1{
+    font-size: 50px;
+    color: rgb(100, 99, 99)
+}
+
 #contact{
     margin-left: 35px;
     margin-top: 500px;
@@ -199,4 +209,5 @@ body.dark{
     width: 100px;
     margin-right: 30px;
 }
+
 
