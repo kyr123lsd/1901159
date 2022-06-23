@@ -132,9 +132,9 @@
             async function predict() {
                 // predict can take in an image, video or canvas html element
                 const prediction = await model.predict(webcam.canvas);
-                if(prediction[0].className == "people" && prediction[0].probability.toFixed(2) >= 0.9){
+                if(prediction[0].className == "people" && prediction[0].probability.toFixed(2) >= 0.8){
                     labelContainer.childNodes[0].innerHTML = "당신은 사람이군요!"
-                } else if(prediction[1].className == "nopeople" && prediction[1].probability.toFixed(2) >= 0.9){
+                } else if(prediction[1].className == "nopeople" && prediction[1].probability.toFixed(2) >= 0.8){
                     labelContainer.childNodes[0].innerHTML = "당신은 사람이 아니군요!"
                 } else {
                     labelContainer.childNodes[0].innerHTML = "당신은 외계인 인가요? 다시 시도해 보세요."
